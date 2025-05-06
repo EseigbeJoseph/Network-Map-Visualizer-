@@ -6,7 +6,7 @@ import Home from "./Home";
 import NetworkMap from "./NetworkMap";
 import SwitchInterface from "./SwitchInterface";
 import Login from "./Login";
-import logoImage from "./logo.jpg";
+import logoImage from "./Cumucore Logo v3.png";
 import "./App.css";
 
 const App = () => {

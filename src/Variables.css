@@ -1,0 +1,11 @@
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #34495e;
+    --background-color: #ecf0f1;
+    --text-color: white;
+    --button-color: #4de7ff;
+    --button-hover-color: #cc0000;
+    --logo-width: 100px;
+    --logo-url: url('./logo.jpg');
+  }
+  

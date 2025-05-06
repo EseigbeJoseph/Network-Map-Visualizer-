@@ -1,0 +1,70 @@
+.switch-popup {
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  overflow-y: auto;
+  max-height: 400px;
+  font-size: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  position: fixed;
+  z-index: 1000;
+  width: 300px;
+}
+
+.switch-popup ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.switch-popup li {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.switch-popup li:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.interface-detail {
+  margin: 5px 0;
+  display: flex;
+  align-items: flex-start;
+}
+
+.interface-detail strong {
+  color: #444;
+  min-width: 100px;
+  margin-right: 8px;
+}
+
+.system-info {
+  border-bottom: 2px solid #eee;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+
+.status-up {
+  color: #10b981;
+  font-weight: 600;
+}
+
+.status-down {
+  color: #ef4444;
+  font-weight: 600;
+}
+
+.network-link {
+  stroke: #64748b;
+  stroke-width: 2;
+  transition: stroke-width 0.2s;
+}
+
+.network-link:hover {
+  stroke: #0ea5e9;
+  stroke-width: 3;
+}

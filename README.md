@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 34375a1 (Updated README)
 # LLDP Network Map Visualizer
 
 This is a full-stack web application that visualizes network switches using LLDP (Link Layer Discovery Protocol) data. The backend is built with Node.js and Express, and the frontend is built with React. Switches are displayed on a canvas, can be dragged and resized, and show detailed interface information in a popup when hovered.
